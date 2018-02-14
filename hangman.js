@@ -206,7 +206,7 @@ window.onload = function () {
 
   play();
   
-  // Hint
+  // User Hints
 
     hint.onclick = function() {
 
