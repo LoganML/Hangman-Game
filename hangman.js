@@ -183,9 +183,9 @@ window.onload = function () {
   // Play
   play = function () {
     categories = [
-        ["leauge-of-legends", "witcher", "bloodborne", "counter-strike", "playerunkown-battlegrounds", "path-of-exile"],
-        ["the-burbs", "the-godfather", "gladiator", "the-matrix", "jaws"],
-        ["ramen", "poke", "pizza", "key-lime-pie", "spaghetti"]
+        ["leauge-of-legends", "witcher", "bloodborne", "counter-strike", "playerunkown-battlegrounds", "path-of-exile", "mana"],
+        ["the-burbs", "the-godfather", "gladiator", "the-matrix", "toy-story"],
+        ["ramen", "poke", "pizza", "key-lime-pie", "spaghetti", "creme-brulee"]
     ];
 
     chosenCategory = categories[Math.floor(Math.random() * categories.length)];
@@ -211,9 +211,9 @@ window.onload = function () {
     hint.onclick = function() {
 
       hints = [
-        ["Welcome to summoners rift", "White Haired and cat eyed", "A hunter is a hunter, even in a dream", "a popular FPS that was developed by valve and nexon", "Outrunning a circle simulator", "a popular free to play ARPG developed by Grinding Gear Games"],
-        ["1989 thriller/comedy", "Revenge is a dish best served cold", "Are you not entertained?!", "A sci-fi film created by the Wachowski Brothers"],
-        ["A classic Japanese dish", "a word for a raw fish meal", "Something round served in something square", "A tart tasting pie!", "If you are Italian you will like these Al Dente"]
+        ["Welcome to summoners rift", "White Haired and cat eyed", "A hunter is a hunter, even in a dream", "a popular FPS that was developed by valve and nexon", "Outrunning a circle simulator", "a popular free to play ARPG developed by Grinding Gear Games", "In some games this determines how many spells you can cast"],
+        ["1989 thriller/comedy", "Revenge is a dish best served cold", "Are you not entertained?!", "A sci-fi film created by the Wachowski Brothers", "A 1995 fantasy/adventure, had actors such as Tom Hanks and Tim Allen doing voice acting."],
+        ["A classic Japanese dish", "a word for a raw fish meal", "Something round served in something square", "A tart tasting pie!", "If you are Italian you will like these Al Dente", "Otherwise known as a burnt cream!"]
     ];
 
     var catagoryIndex = categories.indexOf(chosenCategory);

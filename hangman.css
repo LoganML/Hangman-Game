@@ -2,6 +2,7 @@
 /* Mixin's */
 body {
   background: #0e2349;
+  background-image:url("arcade.jpg");
   font-family: 'Special Elite', cursive;
   color: #fff;
   height: 100%;
@@ -16,6 +17,7 @@ body {
   content: "";
   display: table;
   clear: both;
+  
 }
 canvas {
   color: #fff;
@@ -69,6 +71,7 @@ p {
   background: #272496;
   border: solid 1px #fff;
   color: #fff;
+
 }
 #my-word {
   margin: 0;
@@ -123,6 +126,8 @@ button {
   width: 180px;
   margin: 10px;
   outline: none;
+  grid-auto-columns: ;
+
 }
 button:hover {
   -webkit-transition: all 0.3s ease-in-out;
