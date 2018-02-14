@@ -183,9 +183,9 @@ window.onload = function () {
   // Play
   play = function () {
     categories = [
-        ["leauge-of-legends", "witcher", "bloodborne", "counter-strike", "playerunkown-battlegrounds", "path-of-exile", "mana"],
-        ["the-burbs", "the-godfather", "gladiator", "the-matrix", "toy-story"],
-        ["ramen", "poke", "pizza", "key-lime-pie", "spaghetti", "creme-brulee"]
+        ["leauge-of-legends", "witcher", "bloodborne", "counter-strike", "playerunkown-battlegrounds", "path-of-exile", "mana", "pokemon", "the-walking-dead"],
+        ["the-burbs", "the-godfather", "gladiator", "the-matrix", "toy-story", "oceans-eleven"],
+        ["ramen", "poke", "pizza", "key-lime-pie", "spaghetti", "creme-brulee", "gumbo", "sherbet", "caesar-salad"]
     ];
 
     chosenCategory = categories[Math.floor(Math.random() * categories.length)];
@@ -211,9 +211,9 @@ window.onload = function () {
     hint.onclick = function() {
 
       hints = [
-        ["Welcome to summoners rift", "White Haired and cat eyed", "A hunter is a hunter, even in a dream", "a popular FPS that was developed by valve and nexon", "Outrunning a circle simulator", "a popular free to play ARPG developed by Grinding Gear Games", "In some games this determines how many spells you can cast"],
-        ["1989 thriller/comedy", "Revenge is a dish best served cold", "Are you not entertained?!", "A sci-fi film created by the Wachowski Brothers", "A 1995 fantasy/adventure, had actors such as Tom Hanks and Tim Allen doing voice acting."],
-        ["A classic Japanese dish", "a word for a raw fish meal", "Something round served in something square", "A tart tasting pie!", "If you are Italian you will like these Al Dente", "Otherwise known as a burnt cream!"]
+        ["Welcome to summoners rift", "White Haired and cat eyed", "A hunter is a hunter, even in a dream", "a popular FPS that was developed by valve and nexon", "Outrunning a circle simulator", "a popular free to play ARPG developed by Grinding Gear Games", "In some games this determines how many spells you can cast", "Gotta catchem all!", "A popular Telltale game series, as well as comic and tv drama!"],
+        ["1989 thriller/comedy", "Revenge is a dish best served cold", "Are you not entertained?!", "A sci-fi film created by the Wachowski Brothers", "A 1995 fantasy/adventure, had actors such as Tom Hanks and Tim Allen doing voice acting.", "A 2001 crime film directed by Steven Soderbergh, starring acors such as Andy Garcia, Casey Affleck, Elliot Gould."],
+        ["A classic Japanese dish", "a word for a raw fish meal", "Something round served in something square", "A tart tasting pie!", "If you are Italian you will like these Al Dente", "Otherwise known as a burnt cream!", "Identified by it's dark roux, that has things such as seafood, sausage, and spices.", "A frozen dessert made with fruit juice with milk or cream.", "Romain Lettuce dressed with croutons and parmesan cheese."]
     ];
 
     var catagoryIndex = categories.indexOf(chosenCategory);
