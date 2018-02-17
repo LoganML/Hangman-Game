@@ -225,7 +225,7 @@ window.onload = function() {
         showClue.innerHTML = "Clue: - " + hints[catagoryIndex][hintIndex];
     };
 
-   // Reset
+   // Reset with jquery :p
   function resetGame() {
     correct.parentNode.removeChild(correct);
     letters.parentNode.removeChild(letters);

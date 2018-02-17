@@ -128,7 +128,7 @@ button {
   background: #272496;
   color: #fff;
   border: solid 1px #fff;
-  text-decoration: none;
+  text-decoration-style: wavy;
   cursor: pointer;
   font-size: 1.2em;
   padding: 18px 10px;
